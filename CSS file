@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8aa3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2px;
+    border-radius: 25px;
+}
+
+select{
+    background-color: #96145F;
+    color: white;
+     border-style: none;
+    border-radius: 25px;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    flex: 1;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+
+.search-btn {
+    background-color: white;
+    color:#96145F ;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius:12px;
+    margin-left: -5px;
+}
+.search-btn:hover{
+    color: #800080;
+    background-color: gainsboro;
+}
+
+
+
+
+
